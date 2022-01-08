@@ -3,7 +3,8 @@ Projeto em C para a leitura de códigos de barras a partir de um FILE
 Definições do Projeto:
 
 1 Definicão
-A leitura de c ́odigo de barras  ́e um processo algor ́ıtmico em que se determina a
+
+A leitura de código de barras  ́e um processo algor ́ıtmico em que se determina a
 largura de barras e espa ̧cos para determinar d ́ıgitos decimais.
 Considerando que um arquivo cont ́em um conjunto de c ́odigos de barras,
 escreva um programa que leia tais c ́odigos e escreva em um segundo arquivo a
@@ -24,14 +25,17 @@ valores 0, ent ̃ao podemos ter barras com largura de dois, quatro, seis ou oito
 0 consecutivos. O mesmo vale para os espa ̧cos, com dois, quatro, seis ou oito
 valores 1. Esse tamanho base pode ser de um a quatro caracteres (pixels),
 variando de um c ́odigo para outro.
+
 2 O que deve ser feito
+
 Escreva um programa que leia o arquivo de entrada, denominado “barras.dat”
 e escreva os d ́ıgitos correspondentes a cada c ́odigo em um segundo arquivo,
 denominado “codigos.dat”. No arquivo de sa ́ıda deve existir uma linha para
 cada c ́odigo de barra, sendo que os d ́ıgitos devem estar separados por um espa ̧co
 em branco.
 
-3 Condicões de teste
+3 Condições de teste
+
 Seu programa deve executar considerando que o arquivo de entrada cont ́em um
 conjunto de linhas compostas por zeros e uns, sem separa ̧c ̃ao entre eles dentro
 de uma linha. O exemplo a seguir mostra o come ̧co de cada linha do arquivo de
